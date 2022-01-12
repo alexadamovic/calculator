@@ -56,11 +56,6 @@ $(document).ready(function() {
   });
 
   $("button#btn-clear").click(function(event) {
-    event.preventDefault();
-    const number1 = parseInt($("#user-number1").val());
-    const number2 = parseInt($("#user-number2").val());
-    const result = add(number1, number2);
-    console.log(result);
     $("#output").text(result); 
   });
 });
