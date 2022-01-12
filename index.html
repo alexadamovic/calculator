@@ -12,14 +12,18 @@
     <h1>Calculator</h1>
     <form id="add">
       <div class="form-group">
-        <label for="add1">1st number:</label>
-        <input id="add1" class="form-control" type="text">
+        <label for="user-number1">1st number:</label>
+        <input id="user-number1" class="form-control" type="text">
       </div>
       <div class="form-group">
-        <label for="add2">2nd number:</label>
-        <input id="add2" class="form-control" type="text">
+        <label for="user-number2">2nd number:</label>
+        <input id="user-number2" class="form-control" type="text">
       </div>
-      <button type="submit" class="btn">Add!</button>
+      <button type="submit" class="btn btn-success" id="btn-add">Add!</button>
+      <button type="submit" class="btn btn-primary" id="btn-subtract">Subtract!</button>
+      <button type="submit" class="btn btn-secondary" id="btn-multiply">Multiply!</button>
+      <button type="submit" class="btn btn-warning" id="btn-divide">Divide!</button>      
+      <button type="submit" class="btn btn-light" id="btn-clear">Clear</button>
     </form>
     <div id="output">
     </div>
